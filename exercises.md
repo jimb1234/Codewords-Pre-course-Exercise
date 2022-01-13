@@ -34,7 +34,10 @@ Install [Homebrew](http://brew.sh/) and [oh-my-zsh](https://ohmyz.sh/).
 
 ### Git
 
-Set up [authentication](https://help.github.com/en/github/getting-started-with-github/set-up-git#next-steps-authenticating-with-github-from-git).
+Set up [authentication](https://help.github.com/en/github/getting-started-with-github/set-up-git#next-steps-authenticating-with-github-from-git). 
+
+**Important!** You must start using SSH to connect to GitHub. Please have this set up before you arrive for your first day of the course: [follow these step-by-step instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
 
 If you’re working with a Windows system run `git config --global core.autocrlf false`.
 
