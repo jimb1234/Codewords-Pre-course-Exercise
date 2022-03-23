@@ -93,6 +93,8 @@ In particular, make sure you understand these concepts well:
 - Recursion
 - Callbacks
 
+To avoid unnecessary struggles during the course, don’t rush through this section.
+
 ## 8. Intermediate HTML and CSS (12 hrs)
 
 For HTML, figure out the difference between a tag, an attribute, and a property.

@@ -30,9 +30,15 @@ If you have Windows or Linux, search instructions on Google to figure out how to
 
 ### Terminal
 
-Install [Homebrew](http://brew.sh/) and [oh-my-zsh](https://ohmyz.sh/).
+- **MacOS**: Install [Homebrew](http://brew.sh/) and [oh-my-zsh](https://ohmyz.sh/).
+- **Windows**: Use GitBash as your shell (you will download it when you download Git in the next section).
+- **Linux**: Install [oh-my-zsh](https://ohmyz.sh/).
 
 ### Git
+
+- **MacOS**: Use Homebrew to [install Git](https://git-scm.com/download/mac).
+- **Windows**: [Install Git](https://gitforwindows.org/).
+- **Linux**: You likely already have Git, but if not, you can use your package manager to [install it](https://git-scm.com/download/linux).
 
 Set up [authentication](https://help.github.com/en/github/getting-started-with-github/set-up-git#next-steps-authenticating-with-github-from-git). 
 
@@ -64,6 +70,10 @@ If you’re working with a Windows system, make sure the editor is set up to use
 Once your environment has been set up, you’re ready to work on the exercises. For starters, [fork](https://help.github.com/articles/fork-a-repo/) this repo on GitHub so you have a copy of it in your account. From this moment onwards, you’re only going to work on the fork and you can forget about the original repo.
 
 Now [clone](https://help.github.com/articles/cloning-a-repository/) the fork on your computer, in any folder that you’d like to use for the exercises. Open a terminal window at the home folder of the cloned repo, and run `npm install`.
+
+### Testing
+
+You can use the terminal to test your code as you go. Run `npm test` in the project folder.
 
 ### Linting
 
