@@ -19,7 +19,7 @@ _.last = function (array, n) {
 
 // _.uniq(array)
 // Produces a duplicate-free version of the array, using === to test equality.
-// In particular only the first occurence of each value is kept.
+// In particular only the first occurrence of each value is kept.
 _.uniq = function (array) {
 
 };
