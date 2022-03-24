@@ -23,6 +23,12 @@ mocks.objKeysArr = Object.keys(mocks.obj);
 mocks.objValuesArr = mocks.objKeysArr.map(function (key) {
   return mocks.obj[key];
 });
+mocks.mappedArray = mocks.arr.map(function (ele) {
+  return ele + 'a';
+});
+mocks.objMapValuesArr = mocks.objKeysArr.map(function (key) {
+  return mocks.obj[key] * 2;
+});
 mocks.stringifiedObjKeys = mocks.objKeysArr.join('');
 mocks.stringifiedObjValues = mocks.objValuesArr.join('');
 mocks.sumObjValues = Object.keys(mocks.obj).reduce((acc, el) =>

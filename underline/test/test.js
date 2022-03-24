@@ -238,12 +238,12 @@ describe('Collections', function () {
     it('should return an array with the results of applying iteratee to each element', function () {
       _.map(mocks.arr, function (el, i, arr) {
         arr[i].should.equal(el);
-        return el;
-      }).should.eql(mocks.arr);
+        return el + 'a';
+      }).should.eql(mocks.mappedArray);
       _.map(mocks.obj, function (val, key, obj) {
         obj[key].should.equal(val);
-        return val;
-      }).should.eql(mocks.objValuesArr);
+        return val * 2;
+      }).should.eql(mocks.objMapValuesArr);
     });
 
     it('should ignore the object prototype', function () {
