@@ -57,7 +57,7 @@ Once Node is properly installed on your computer, to install [Gulp](http://gulpj
 
 ### Markdown
 
-All the docs are written in [Markdown](https://guides.github.com/features/mastering-markdown/) format. If you’re not familiar with it yet, take a few minutes to figure out how it works (it should be quite easy for you at this point). Then install an editor / viewer on your computer, so you can enjoy a nicer formatting. Our favorite free one is [Mark Text](https://marktext.app/).
+All the docs are written in [Markdown](https://guides.github.com/features/mastering-markdown/) format. If you’re not familiar with it yet, take a few minutes to figure out how it works (it should be quite easy for you at this point). Then install an editor / viewer on your computer, so you can enjoy a nicer formatting. Our favorite free one is [Mark Text](https://github.com/marktext/marktext).
 
 ### Code editor
 
