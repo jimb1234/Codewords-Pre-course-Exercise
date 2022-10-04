@@ -8,7 +8,7 @@ JSON syntax is very close to JavaScript objects, so it will look completely fami
 
 Most modern programming languages can translate data to JSON, and parse it back. This also allows to pass information between different programming languages.
 
-We’ve written a list of unit tests that your implementation needs to pass. In the initial state of the repository most of these tests are failing. You need to open `index.js` and add the missing code in there to make all tests pass (obviously without using `JSON.stringify()`).
+We’ve written a list of unit tests that your implementation needs to pass. In the initial state of the repository most of these tests are failing. You need to open `index.js` and add the missing code in there to make all tests pass (obviously without using `JSON.stringify()`). We strongly suggest that you use recursion in your solution.
 
 ## Getting started
 
