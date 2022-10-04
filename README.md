@@ -4,6 +4,10 @@ This pre course is important, because it allows all students in a class to have 
 
 Be aware that not completing this material leads to rescheduling or canceling your main course.
 
+### Privacy
+
+Remember that this repo, any code it contains, or any materials you’ll receive from us during the course can’t be published. You can only use it as a private fork. It’s fundamental that you complete the exercises yourself, and don’t share any solutions online, as it could compromise learning opportunities for other students.
+
 ### Communications
 
 You should have received an invite to the Codeworks Slack team (if not, please let us know by email). Make sure you keep the [Slack](https://slack.com/) app installed on your mobile phone (logged in, with notifications turned on), as from this point onwards we might use this channel to communicate instead of email, for anything that is time-sensitive or benefits from a group conversation.
