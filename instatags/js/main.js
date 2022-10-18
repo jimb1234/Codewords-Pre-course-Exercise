@@ -40,7 +40,7 @@ $(function () {
     // The function should take 2 arguments: (tags, minFrequency)
     // where "tags" is the sorted array of hashtags, and "minFrequency"
     // is a number representing the minimum frequency allowed, in this case, we will pass 2.
-    // It returns a new array of hastags with frequency equal or above the set limit.
+    // It returns a new array of hashtags with frequency equal or above the set limit.
 
     // Guess what? Another render function that is broken!
     // Let's go and fix it.
@@ -166,7 +166,6 @@ $(function () {
     // This is a handler function that is bound to the click event. jQuery will call this function,
     // passing the event information, when one of the links we prepared before is clicked.
     // The event object, among other data, contains the target: the link that was clicked.
-    // among other data contains the target: the link that was clicked.
     // So, we can cast the HTML element that was clicked into a jQuery object by doing the following.
     var link = $(event.target);
 
