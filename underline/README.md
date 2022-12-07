@@ -10,7 +10,9 @@ Modern browsers provide built-in functions that replicate some of the functions 
 
 To install the required dependencies, run `npm install` from the project folder.
 
-To run the tests simply open `index.html` in your browser. After you add or modify some code in `index.js` save it and refresh the page in your browser to run the tests again.
+To run the tests simply open `index.html` in your browser. After you add or modify some code in `index.js` save it and refresh the page in your browser to run the tests again. Bear in mind that some Chrome extensions can interfere with the test results when they are enabled. As an alternative, you may also test your code by running `npm test` from the pre-course folder on your terminal.
+
+
 
 ## Notes
 
