@@ -20,7 +20,7 @@ On the other hand, you’re more than welcome to interact with fellow students a
 
 When writing code for these exercises, don’t use any AI tool to create a solution. If you let an AI write the solution, it strips away the learning opportunity from you.
 
-On the other hand, if there’s a concept you don’t understand, you can use an AI to clarify it and explain it, the same way that you would look for information online, just make sure to not ask for a partial or full solution of the exercise.
+On the other hand, if there’s a concept you don’t understand, you can use an AI to clarify it and explain it, the same way that you would look for information online, just make sure to not ask for a partial or full solution to the exercise.
 
 Later in the course, when the right time comes, we will encourage you to use AI tools to improve your productivity.
 
