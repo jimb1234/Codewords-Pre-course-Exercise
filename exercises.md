@@ -16,6 +16,18 @@ For the same reason obviously you’re not supposed to look up / copy the source
 
 On the other hand, you’re more than welcome to interact with fellow students and instructors, posting questions on Slack.
 
+### AI assistance
+
+When writing code for these exercises, don’t use any AI tool to create a solution. If you let an AI write the solution, it strips away the learning opportunity from you.
+
+On the other hand, if there’s a concept you don’t understand, you can use an AI to clarify it and explain it, the same way that you would look for information online, just make sure to not ask for a partial or full solution of the exercise.
+
+Later in the course, when the right time comes, we will encourage you to use AI tools to improve your productivity.
+
+In fact, AIs are useful to speed up a programmer’s work once you have a solid understanding of the underlying concepts. Consider AI like an assistant. You can let it write code for you, if you’re able to check what it’s doing and correct its work when necessary. Otherwise, it can introduce mistakes or go way off-track and you wouldn’t even understand what is happening.
+
+Be aware that code written by AI can be detected and can lead to your exclusion from the course.
+
 ### Support sessions
 
 Once you start writing some code, you have access to a weekly video call with other coursemates and instructors to check your progress, help you get unstuck, and answer any questions you have.
