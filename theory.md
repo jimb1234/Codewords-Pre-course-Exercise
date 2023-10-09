@@ -12,11 +12,11 @@ A text editor is to coders what a brush is to painters. If you master how to use
 
 Here’s a brief list of the most popular editors out there:
 
-[Vim](http://www.vim.org/), [Emacs](https://www.gnu.org/software/emacs/), [Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/).
+[Vim](http://www.vim.org/), [Emacs](https://www.gnu.org/software/emacs/), [VS Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/).
 
 We mention Vim and Emacs first, because they’ve been around for a very long time. Also, Vim is installed by default on all Unix systems and most Linux editions. Having said this, both editors are powerful but not particularly user-friendly at the beginning.
 
-Atom, Visual Studio, and Sublime Text are great editors to get started.
+Visual Studio, and Sublime Text are great editors to get started.
 
 During the course we’re going to use VS Code: [install it](https://code.visualstudio.com/download) on your computer and add the [Live Share plugin](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare).
 
