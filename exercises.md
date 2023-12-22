@@ -46,18 +46,18 @@ If you have Windows or Linux, search instructions on Google to figure out how to
 - **Windows**: Use GitBash as your shell (you will download it when you download Git in the next section).
 - **Linux**: Install [oh-my-zsh](https://ohmyz.sh/).
 
-### Git
+### Git and GitHub
 
-- **MacOS**: Use Homebrew to [install Git](https://git-scm.com/download/mac).
-- **Windows**: [Install Git](https://gitforwindows.org/).
-- **Linux**: You likely already have Git, but if not, you can use your package manager to [install it](https://git-scm.com/download/linux).
+Install Git:
+- [MacOS](https://git-scm.com/download/mac), use Homebrew.
+- [Windows](https://gitforwindows.org/), then run `git config --global core.autocrlf false` in Terminal.
+- [Linux](https://git-scm.com/download/linux) (most likely it’s already installed, you can check it by running `git --version` in Terminal).
 
-Set up [authentication](https://help.github.com/en/github/getting-started-with-github/set-up-git#next-steps-authenticating-with-github-from-git). 
-
-**Important!** You must start using SSH to connect to GitHub. Please have this set up before you arrive for your first day of the course: [follow these step-by-step instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
-
-
-If you’re working with a Windows system run `git config --global core.autocrlf false`.
+Set up SSH to connect to GitHub:
+- [Check for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
+- [Generate a new SSH key, or add an existing one to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Add the SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+- [Test your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
 
 ### Node
 
@@ -123,7 +123,7 @@ git remote -v
 # origin  https://github.com/YOUR_USERNAME/pre-course.git (push)
 
 # Now add the upstream (afterwards check your remotes again if you like):
-git remote add upstream https://github.com/codeworks/pre-course.git
+git remote add upstream git@github.com:codeworks/pre-course.git
 
 # Finally check if your fork is in sync by running a pull with rebase:
 git pull --rebase upstream master
