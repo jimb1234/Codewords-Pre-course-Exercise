@@ -32,7 +32,7 @@ Be aware that code written by AI can be detected and can lead to your exclusion 
 
 Once you start writing some code, you have access to a weekly video call with other coursemates and instructors to check your progress, help you get unstuck, and answer any questions you have.
 
-These calls are optional but highly recommended. In order to participate you need to sign up for each session in advance through [this calendar](https://calendly.com/codeworks-instructors/support-session).
+These calls are optional but highly recommended. In order to participate you need to sign up for each session in advance through [this calendar](https://codeworks.me/contact/support-session/).
 
 ## Setting up your environment
 
