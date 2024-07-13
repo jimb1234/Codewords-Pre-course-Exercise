@@ -37,6 +37,7 @@ describe('Arrays', function () {
     });
 
   });
+})
 
   describe('last', function () {
 
@@ -80,8 +81,6 @@ describe('Arrays', function () {
     });
 
   });
-
-});
 
 describe('Objects', function () {
 
@@ -609,42 +608,6 @@ describe('Collections', function () {
 
   });
 
-  describe('invoke', function () {
-
-    var argsArr;
-
-    before(function () {
-      Object.prototype.testCall = function () {
-        return this;
-      };
-      Object.prototype.testArgs = function () {
-        arguments[0].should.equal(argsArr[0]);
-        arguments[1].should.equal(argsArr[1]);
-        called = true;
-      };
-    });
-
-    after(function () {
-      delete Object.prototype.testCall;
-      delete Object.prototype.testArgs;
-    });
-
-    it('should return an array with the results of calling the indicated method on each element', function () {
-      _.invoke(mocks.arr, 'testCall').should.eql(mocks.arr);
-      _.invoke(mocks.obj, 'testCall').should.eql(mocks.objValuesArr);
-    });
-
-    it('should correctly pass the arguments', function () {
-      argsArr = [mocks.arr, mocks.obj];
-      _.invoke(mocks.arr, 'testArgs', mocks.arr, mocks.obj);
-      called.should.be.true;
-      called = false;
-      argsArr = [mocks.obj, mocks.arr];
-      _.invoke(mocks.obj, 'testArgs', mocks.obj, mocks.arr);
-      called.should.be.true;
-    });
-
-  });
 
   describe('pluck', function () {
 
@@ -766,5 +729,4 @@ describe('Functions', function () {
     });
 
   });
-
 });

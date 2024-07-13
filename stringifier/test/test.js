@@ -2,15 +2,13 @@
 
 // Allow tests to run on the server (leave at the top)
 if (typeof window === 'undefined') {
-  var should = require('chai').should();
-  var stringifier = require('../index.js');
-  var mocks = require('./mocks.js');
-}
+  const chai = require('chai');
+const should = chai.should();
+const stringifier = require('../index.js');
+const mocks = require('./mocks.js');
 
 describe('Stringifier', function () {
-
   describe('Basic types', function () {
-
     it('should properly convert numbers', function () {
       stringifier(mocks.num).should.equal(JSON.stringify(mocks.num));
     });
@@ -34,11 +32,9 @@ describe('Stringifier', function () {
     it('should properly convert undefined', function () {
       should.equal(stringifier(undefined), JSON.stringify(undefined));
     });
-
   });
 
   describe('Plain collections', function () {
-
     it('should properly convert arrays', function () {
       stringifier(mocks.arr).should.equal(JSON.stringify(mocks.arr));
     });
@@ -53,11 +49,9 @@ describe('Stringifier', function () {
       delete mocks.obj.constructor.prototype.foo;
       res.should.equal(JSON.stringify(mocks.obj));
     });
-
   });
 
   describe('Nested collections', function () {
-
     it('should properly convert nested arrays', function () {
       stringifier(mocks.nestedArr).should.equal(JSON.stringify(mocks.nestedArr));
     });
@@ -65,7 +59,6 @@ describe('Stringifier', function () {
     it('should properly convert nested objects', function () {
       stringifier(mocks.nestedObj).should.equal(JSON.stringify(mocks.nestedObj));
     });
-
   });
-
 });
+}
